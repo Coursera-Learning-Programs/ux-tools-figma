@@ -1,0 +1,110 @@
+body {
+    font-family: Times New Roman, serif;
+    background-color: #F5DEB3;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #006400;
+    color: #FFFFFF;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+}
+
+#logo i {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header-right {
+    float: right;
+    text-align: right;
+}
+
+nav {
+    background-color: #90EE90;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #006400;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #006400;
+    color: #FFFFFF;
+}
+
+#main-content {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#content {
+    float: left;
+    width: 700px;
+}
+
+#sidebar {
+    float: right;
+    width: 200px;
+    background-color: #90EE90;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #006400;
+}
+
+#store-image, #featured-product {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #006400;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+footer a {
+    color: #90EE90;
+}
+
+.fas, .far {
+    margin-right: 5px;
+}
